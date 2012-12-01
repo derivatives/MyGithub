@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity" >
-
+    
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
@@ -36,5 +36,15 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="136dp"
         android:text="@string/hello_aquasoft" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/textView2"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_below="@id/textView4"
+        android:layout_marginTop="15dp"
+        android:text="@string/hello_ae" />
 
 </RelativeLayout>
