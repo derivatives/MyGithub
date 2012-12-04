@@ -54,5 +54,13 @@
         android:layout_below="@id/textView5"
         android:layout_centerHorizontal="true"
         android:text="@string/hello_ice5050" />
+    
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView6"
+        android:layout_centerHorizontal="true"
+        android:text="@string/hello_elf" />
 
 </RelativeLayout>
